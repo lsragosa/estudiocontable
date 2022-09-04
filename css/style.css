@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/**
+font-family: 'Noto Sans', sans-serif;
+**/
+body{
+    background-color: #f8fafc;
+    width: 1000px;
+    height: 1000px;
+}
+header{
+    background-image: url(../img/headercss.png);
+    width: 100%;
+    height: 20%;
+    position: fixed;
+    top: 0%;
+}
+.titulo{
+    display: flex;
+    gap: 20px;
+}
+.navBar{
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
+    gap: 20px;
+}
+ul li a{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.navBar li a:hover{
+    color: deepskyblue;
+    font-size: 18px;
+}
+.imageninicio{
+    margin-left: 50px;
+    width: 500px;
+    height: 500px;
+    border-radius: 60px 60px 60px 60px;
+}
+.inicio{
+    display: flex;
+    margin-top: 80px;
+    gap: 120px;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+.imagenesservicios{
+    width: 60px;
+    height: 60px;
+}
+.contable{
+    display: flex;
+    padding: 50px;
+    background-color: lightgray;
+    border-radius: 10px 50px 100px 60px;
+    margin-top: 50px;
+    gap: 50px;
+    margin-left: 250px;
+}
+.impositivos{
+    display: flex;
+    padding: 50px;
+    background-color:lightgray;
+    border-radius: 60px 10px 50px 100px;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.laborales{
+    display: flex;
+    padding: 50px;
+    background-color: lightgray;
+    border-radius: 10px 50px 100px 60px;
+    margin-top: 50px;
+    gap: 80px;
+    align-items: center;
+    margin-left: 250px;
+}
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+}
+h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.formulario{
+    display: flex;
+    margin-top: 100px;
+}
+footer{
+    background-color: #abd4fc;
+    width: 200%;
+    height: 20%;
+}
+.footer{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.redes{
+    display: flex;
+    gap: 10px;
+}
+
+
